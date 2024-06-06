@@ -98,7 +98,7 @@ fieldset {
 
 button {
   color: white;
-  background-color: green;
+  background-color: #596D48;
   border-style: none;
   padding: 10px;
   width: 200px;
@@ -126,5 +126,15 @@ button {
 .stars {
   height: 80%
 }
+
+input:invalid{
+  border-color: red;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+
+
+
 
 
