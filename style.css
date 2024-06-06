@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'montserratthin';
+  src: url('fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.background-image {
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  min-width: 400px;
+  min-height: 100%;
+}
+form {
+
+}
+
+input,
+label {
+  display: block;
+  margin: 5px;
+  font-size: 10px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+
+}
+
+.wrapper {
+  display: flex;
+}
+
+.background,
+.form {
+  height: 100vh;
+  flex: 1;
+}
+
+.background {
+  flex: 3;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+.form {
+  flex: 5;
+  min-width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.form-section {
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  font-weight:800;
+}
+
+#form-section-3 {
+  position: relative;
+  align-content: start;
+  z-index: 0;
+}
+
+#form-section-1 {
+  position: relative;
+  align-content: start;
+  box-shadow: 0px 4px 10px ;
+}
+
+fieldset {
+  border-style: none;
+  display: flex;
+}
+
+button {
+  color: white;
+  background-color: green;
+  border-style: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.logo-holder {
+  display: flex;
+  justify-content: center;
+  height: 150px; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: -800px;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+.stars {
+  height: 80%
+}
+
+
